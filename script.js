@@ -58,3 +58,5 @@ console.log(fisrtScore>secondScore)
 console.log(fisrtScore<secondScore)
   /*------------------------Part3-----------------*/
   console.log(fisrtScore&&secondScore||student.age)
+  
+  console.log(student.isEnrolled!=true)
