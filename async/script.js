@@ -28,7 +28,7 @@ function createDelayModify(milliseconds, message) {
 createDelayModify("First delay time",500) //funksiyani cagiririq ve parametrləri göndəririk
 .then((message)=>{
     console.log(message)
-    return createDelayModify("Second delay message:",1000) //Bu hissede bir neçə messajimiz oldugu ücün chainin promise baş verir 
+    return createDelayModify("Second delay message:",1000) //Bu hissede bir neçə messajimiz və vaxtimiz  oldugu ücün chainin promise baş verir 
 })
 .then((message)=>{
     console.log(message)
