@@ -1,7 +1,7 @@
-// fetch('https://jsonplaceholder.typicode.com/posts/1"')
-// .then(response=>response.json())
-// .then(data=>console.log(data))
-// .catch(error=>console.error("Xeta:",error))
+fetch('https://jsonplaceholder.typicode.com/posts')
+.then(response=>response.json())
+.then(data=>console.log(data))
+.catch(error=>console.error("Xeta:",error))
 
 // fetch('https://restcountries.com/v3.1/all')
 // .then(response=>response.json())
@@ -31,15 +31,15 @@
 // }
 // getStudents("students.json")
 
-async function getCountries(url){
-    try{
-        const response=await fetch(url)
-        const data=await response.json()
-        console.log(data);
-    }
-    catch(error){
-        console.error("xeta bas verdi",error)
-    }
+// async function getCountries(url){
+//     try{
+//         const response=await fetch(url)
+//         const data=await response.json()
+//         console.log(data);
+//     }
+//     catch(error){
+//         console.error("xeta bas verdi",error)
+//     }
 
-}
-getCountries("https://restcountries.com/v3.1/all")
+// }
+// getCountries("https://restcountries.com/v3.1/all")
