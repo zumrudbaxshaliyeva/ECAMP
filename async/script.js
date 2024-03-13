@@ -58,7 +58,7 @@ setTimeout(()=>{
 },delay)
 })
 }
-/*async function delayProcess(){
+async function delayProcess(){
   try{
     const result= await createDelay("Delay completed",1000)
     console.log(result);
@@ -67,7 +67,7 @@ setTimeout(()=>{
     console.error("Xeta var",error);
   }
 }
-delayProcess()*/
+delayProcess()
 async function delayProcessChained(){
   try{
     const result2=await createDelay("First delay",500)
@@ -81,3 +81,7 @@ async function delayProcessChained(){
     console.error("Xeta var",error)
   }
 }
+(async () => {
+  await delayProcess();
+  await delayProcessChained();
+})();
