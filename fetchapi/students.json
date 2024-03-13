@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "firstname":"Zumrud",
+        "lastname":"Bakhshaliyeva",
+        "age":22
+    },
+    {
+        "id":2,
+        "firstname":"Esmer",
+        "lastname":"Terishli",
+        "age":23
+    },
+    {
+        "id":3,
+        "firstname":"Aytac",
+        "lastname":"Guliyeva",
+        "age":25
+    },
+    {
+        "id":4,
+        "firstname":"Nusret",
+        "lastname":"Ibraghimli",
+        "age":29
+    },
+    {
+        "id":5,
+        "firstname":"Farid",
+        "lastname":"Qasimov",
+        "age":24
+
+    }
+]
